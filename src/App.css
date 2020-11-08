@@ -1,1 +1,53 @@
 /* Other rules */
+.compteur {
+  display: flex;
+}
+/*Mise en forme des boutons*/
+.compteur button {
+  background-color: white;
+}
+.compteur button,
+.reset,
+.add {
+  border: none;
+  cursor: pointer;
+  outline: 0;
+}
+.reset,
+.add {
+  background-color: blueviolet;
+  height: 40px;
+  color: white;
+  width: 60px;
+}
+.add {
+  display: flex;
+  margin: auto;
+  align-items: center;
+  width: 90px;
+}
+/*----------------------------------*/
+h1 {
+  padding-bottom: 30px;
+  padding-left: 20px;
+}
+.title {
+  display: flex;
+  border-bottom: 2px solid grey;
+  margin-bottom: 30px;
+}
+p {
+  background-color: blueviolet;
+  width: 30px;
+  height: 30px;
+  color: white;
+  font-size: 30px;
+  text-align: center;
+}
+.calculator {
+  display: flex;
+  flex-direction: column;
+}
+.map {
+  display: flex;
+}
